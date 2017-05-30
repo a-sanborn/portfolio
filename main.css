@@ -67,7 +67,9 @@ body {
 		max-width: 100%;
 		}
 	
-	
+	#nav li {
+		font-size: 3vw;
+	}
 }
 
 
