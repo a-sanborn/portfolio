@@ -31,22 +31,22 @@ body {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	padding: 0;
-	padding-top: 1%;
+	padding: 4%;
 	}
 	
 #logo {
 	position: absolute;
 	top: 0%;
 	right: 3%;
-	padding-top: 1%;
+	padding-top: 5%;
 	z-index: 11;
-	width: 8%;
+	width: 9%;
 	}
 	
 #nav li {
 	display: inline-block;
-	padding: 1%;
+	padding: 2%;
+	font-size: 5vw;
 	}
 	
 #name {
@@ -55,7 +55,7 @@ body {
 	width: 100%;
 	text-align: center;
 	z-index: 12;
-	font-size: 8vw;
+	font-size: 10vw;
 	opacity: 0.7;
 	font-family: 'Righteous', cursive;
 	}
