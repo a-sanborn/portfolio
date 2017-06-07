@@ -2,6 +2,7 @@
 box-sizing: border-box;
 }
 
+
 body {
 	max-width: 100%;
 	color: #002D2D;
@@ -9,10 +10,14 @@ body {
 	font-family: 'Raleway', sans-serif;
 	}
 
+.colorburst {
+	color: #CD5D00;
+	}
+
 #rotating-item-wrapper {
     position: relative;
     max-width: 100%;
-    height: 100vh;
+    height: 90vh;
     color: white;
     overflow-x: hidden;
 }
@@ -24,6 +29,8 @@ body {
     left: 0;
    	max-width: 300%;
 }
+
+
 
 #nav {
 	margin: 0;
@@ -59,6 +66,132 @@ body {
 	opacity: 0.7;
 	font-family: 'Righteous', cursive;
 	}
+	
+	
+#servicelist {
+	padding: 5vh 0 2vh;
+	margin-top: -2vh;
+	list-style-type: none;
+	text-align: center;
+	font-weight: 700;
+}
+
+#servicelist li {
+	padding-bottom: 2vh;
+	}
+	
+#buttondiv {
+	background: #efefef;
+	padding: 3vh;
+	}
+	
+button {
+	display: block;
+	background: #efefef;
+	border: 2px solid #CD5D00;
+	padding: 1vh 3vh;
+	margin: 0 auto;
+	}
+	
+#statementdiv {
+	background: #c8c8c8;
+	padding: 3vh 1.5vh;
+	text-indent: 5%;
+	line-height: 1.4;
+	}
+	
+	
+#webdiv {
+	background: #efefef;
+	}
+	
+#printdiv {
+	background: #efefef;
+	}
+	
+#webdiv, #printdiv {
+	padding: .5vh;
+	}
+	
+#webdiv p, #printdiv p, h2 {
+	text-align: center;
+	padding: 0 1.5vh;
+	}
+	
+.imgdiv {
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 6vh 0 2vh;
+	}
+	
+.imgdiv img {
+	width: 100%;
+	}
+	
+
+h2 {
+	padding: 6vh 0 3vh;
+	margin: 0;
+	}
+	
+#unitydesign {
+	background: #c8c8c8;
+	}
+	
+#designlist {
+	padding: 0 0 1vh 4vh;
+	}
+	
+#designlist ul {
+	display: inline-block;
+	width: 49%;
+	list-style-type: circle;
+	font-weight: 700;	
+	}
+	
+#designlist ul li {
+	padding-bottom: 1.5vh;
+	}
+	
+#button2div {
+	margin-bottom: 10vh;
+	}
+	
+#button2div button {
+	background: white;
+	}
+	
+footer {
+	background: #efefef;
+	padding-bottom: 1vh;
+	}
+	
+#footerul, #footerlogodiv {
+	width: 48%;
+	display: inline-block;
+	}	
+
+#footerul ul {
+	list-style-type: none;
+	padding: 1vh;
+	}
+	
+#footerlogo {
+	width: 30%;
+	display: block;
+	margin-right: 0;
+	margin-left: auto;
+	}
+	
+#footername {
+	text-align: center;
+	}
+	
+	
+	
+	
+
+
 	
 
 
