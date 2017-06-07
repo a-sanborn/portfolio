@@ -19,7 +19,7 @@ body {
     max-width: 100%;
     height: 90vh;
     color: white;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .rotating-item {
@@ -97,7 +97,7 @@ button {
 	background: #c8c8c8;
 	padding: 3vh 1.5vh;
 	text-indent: 5%;
-	line-height: 1.4;
+	line-height: 1.6;
 	}
 	
 	
@@ -113,7 +113,7 @@ button {
 	padding: .5vh;
 	}
 	
-#webdiv p, #printdiv p, h2 {
+#webdiv p, #printdiv p {
 	text-align: center;
 	padding: 0 1.5vh;
 	}
@@ -130,6 +130,7 @@ button {
 	
 
 h2 {
+	text-align: center;
 	padding: 6vh 0 3vh;
 	margin: 0;
 	}
@@ -142,9 +143,12 @@ h2 {
 	padding: 0 0 1vh 4vh;
 	}
 	
-#designlist ul {
+.uldiv {
 	display: inline-block;
 	width: 49%;
+	}
+	
+#designlist ul {
 	list-style-type: circle;
 	font-weight: 700;	
 	}
@@ -164,6 +168,7 @@ h2 {
 footer {
 	background: #efefef;
 	padding-bottom: 1vh;
+	vertical-align: bottom;
 	}
 	
 #footerul, #footerlogodiv {
@@ -176,11 +181,12 @@ footer {
 	padding: 1vh;
 	}
 	
-#footerlogo {
-	width: 30%;
+#footerlogodiv svg {
+	width: 35%;
 	display: block;
 	margin-right: 0;
 	margin-left: auto;
+	padding-top: 3vh;
 	}
 	
 #footername {
@@ -202,7 +208,53 @@ footer {
 	
 	#nav li {
 		font-size: 3vw;
-	}
+		}
+		
+	#servicelist li {
+		display: inline-block;
+		padding:  4vh;
+		}
+		
+	#servicelist {
+		margin-top: 0;
+		}
+		
+	#buttondiv {
+		padding: 5vh;
+		}
+		
+	#statementdiv {
+		padding: 5vh 8vh;
+		text-indent: 8%;
+		}
+		
+	.imgdiv {
+		max-width: 60%;
+		margin: 3vh auto 0;
+		padding: 10vh 0 2vh;
+		}
+		
+	#webdiv p, #printdiv p {
+		padding: 0 12vh;
+		}
+		
+	#unitydesign {
+		padding-top: 4vh;
+		}
+		
+	#designlist {
+		padding: 0 0 1vh 34vh;
+		}
+		
+	#cost {
+		padding: 5vh;
+		}
+		
+	#footerlogodiv svg {
+		width: 20%;
+		}
+		
+
 }
 
 
