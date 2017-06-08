@@ -10,14 +10,14 @@ body {
 	font-family: 'Raleway', sans-serif;
 	}
 
-.colorburst {
+.colorburst, #designlist ul li {
 	color: #CD5D00;
 	}
 
 #rotating-item-wrapper {
     position: relative;
     max-width: 100%;
-    height: 90vh;
+    height: 90VH;
     color: white;
     overflow: hidden;
 }
@@ -105,10 +105,6 @@ button {
 	background: #efefef;
 	}
 	
-#printdiv {
-	background: #efefef;
-	}
-	
 #webdiv, #printdiv {
 	padding: .5vh;
 	}
@@ -116,6 +112,11 @@ button {
 #webdiv p, #printdiv p {
 	text-align: center;
 	padding: 0 1.5vh;
+	}
+	
+#printdiv {
+	background: #efefef;
+	padding-bottom: 6vh;
 	}
 	
 .imgdiv {
@@ -137,6 +138,7 @@ h2 {
 	
 #unitydesign {
 	background: #c8c8c8;
+	padding: 4vh 0;
 	}
 	
 #designlist {
@@ -150,7 +152,7 @@ h2 {
 	
 #designlist ul {
 	list-style-type: circle;
-	font-weight: 700;	
+	font-weight: 500;	
 	}
 	
 #designlist ul li {
@@ -169,16 +171,19 @@ footer {
 	background: #efefef;
 	padding-bottom: 1vh;
 	vertical-align: bottom;
+	position: relative
 	}
 	
 #footerul, #footerlogodiv {
 	width: 48%;
 	display: inline-block;
 	}	
+	
 
 #footerul ul {
 	list-style-type: none;
 	padding: 1vh;
+	margin-top: 0;
 	}
 	
 #footerlogodiv svg {
@@ -218,7 +223,11 @@ footer {
 	#servicelist {
 		margin-top: 0;
 		}
-		
+	
+	button {
+		padding: 2vh 4vh;
+		}
+	
 	#buttondiv {
 		padding: 5vh;
 		}
@@ -238,12 +247,12 @@ footer {
 		padding: 0 12vh;
 		}
 		
-	#unitydesign {
-		padding-top: 4vh;
-		}
-		
 	#designlist {
 		padding: 0 0 1vh 34vh;
+		}
+		
+	#designlist ul li {
+		font-size: 6vh;
 		}
 		
 	#cost {
@@ -253,10 +262,49 @@ footer {
 	#footerlogodiv svg {
 		width: 20%;
 		}
-		
-
 }
 
+@media only screen and (orientation: portrait) and (min-width: 600px) {
 
+	#servicelist {
+		padding: 0 0 2vh;
+		}
+
+
+	#servicelist li {
+		display: inline-block;
+		padding:  4vh;
+		font-size: 2vh;
+		}
+		
+	#statementdiv, #webdiv p, #printdiv p, .uldiv ul li {
+		font-size: 2vh;
+		}
+		
+	.imgdiv {
+		max-width: 60%;
+		}
+		
+	#unitydesign {
+		padding: 0;
+		}
+		
+	#designlist {
+	padding: 0 0 1vh 14vh;
+	}
+	
+	h2 {
+		font-size: 3vh;
+		}
+
+	#button2div {
+		margin-bottom: 7vh;
+		}
+		
+	#footerlogodiv svg {
+		width: 20%;
+		}
+
+}
 
 
