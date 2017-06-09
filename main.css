@@ -390,7 +390,7 @@ footer {
 		}
 		
 	#printdiv p, #webdiv p {
-		font-size: 1.8vw;
+		font-size: 2vw;
 		}
 		
 	#unitydesign {
@@ -403,8 +403,12 @@ footer {
 		}
 		
 	#designlist {
-		padding: 4vh 3vh;
+		padding: 10vh 0 8vh 6vw;
 		background: white;
+		}
+		
+	#designlist ul li {
+		font-size: 2.2vw;
 		}
 		
 	h2 {
@@ -412,7 +416,7 @@ footer {
 		}
 		
 	#design h2 {
-		padding-top: 10vh;
+		padding: 25% 0;
 		}
 		
 	#costcontainer {
@@ -423,13 +427,18 @@ footer {
 		width: 50%;
 		}
 	
+	#cost h2 {
+		padding-top: 15%;
+		}
+	
 	#cost {
 		order: 2;
 		background: #c8c8c8;
 		}
 		
 	#button2div button {
-		margin-top: 15%;
+		margin-top: 22%;
+		margin-bottom: 10%;
 		}
 	
 		
