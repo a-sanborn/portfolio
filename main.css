@@ -198,6 +198,7 @@ footer {
 	text-align: center;
 	}
 	
+
 	
 	
 	
@@ -334,18 +335,105 @@ footer {
 }
 
 @media only screen and (orientation: portrait) and (min-width: 850px) {
+
 	#rotating-item-wrapper {
 		height: 68vh;
 		}
 
 }
 
-@media only screen and (orientation: landscape) and (min-width: 737px) {
+@media only screen and (orientation: landscape) and (min-width: 767px) {
+
 	#nav li {
-		color: lime;
+		font-size: 2vw;
 		}
+		
+	#unity, #statementdiv {
+		width: 50%;
+		display: inline-block;
+		}
+		
+	#statementdiv {
+		font-size: 2.2vw;
+		padding: 4vw 4vw;
+		line-height: 1.7;
+		}
+		
+	#container {
+		display: flex;
+		}
+		
+	#servicelist li {
+		display: block;
+		padding: 2vw;
+		}
+		
+	button {
+		font-size: 2vw;
+		}
+		
+	#webprint {
+		display: flex;
+		}
+		
+	#webdiv, #printdiv {
+		width: 50%;
+		}
+		
+	.imgdiv {
+		max-width: 70%;
+		}
+		
+		
+	#printdiv p {
+		padding-top: 2vh;
+		}
+		
+	#printdiv p, #webdiv p {
+		font-size: 1.8vw;
+		}
+		
+	#unitydesign {
+		display: flex;
+		padding: 0;
+		}
+		
+	#designlist, #design {
+		width: 50%;
+		}
+		
+	#designlist {
+		padding: 4vh 3vh;
+		background: white;
+		}
+		
+	h2 {
+		font-size: 3.5vw;
+		}
+		
+	#design h2 {
+		padding-top: 10vh;
+		}
+		
+	#costcontainer {
+		display: flex;
+		}
+		
+	#cost, #button2div {
+		width: 50%;
+		}
+	
+	#cost {
+		order: 2;
+		background: #c8c8c8;
+		}
+		
+	#button2div button {
+		margin-top: 15%;
+		}
+	
+		
 
 }
 
 
- */
