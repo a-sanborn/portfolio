@@ -353,6 +353,10 @@ footer {
 		display: inline-block;
 		}
 		
+	#buttondiv {
+		padding: 8vh;
+		}
+		
 	#statementdiv {
 		font-size: 2.2vw;
 		padding: 4vw 4vw;
@@ -403,12 +407,17 @@ footer {
 		}
 		
 	#designlist {
-		padding: 10vh 0 8vh 6vw;
+		padding: 8vh 0 8vh 6vw;
 		background: white;
 		}
 		
 	#designlist ul li {
 		font-size: 2.2vw;
+		padding: 1.5vw;
+		}
+		
+	.uldiv {
+		padding-left: 1vw;
 		}
 		
 	h2 {
@@ -441,6 +450,13 @@ footer {
 		margin-bottom: 10%;
 		}
 	
+	#footerlogodiv svg {
+		width: 15%;
+		}
+		
+	footer {
+		padding: 0 4vw;
+		}
 		
 
 }
