@@ -9,3 +9,4 @@ $('form').submit(function(event) {
 			$('form').html("<p>Thanks for your response!</p>");
 		}
 	});
+});
