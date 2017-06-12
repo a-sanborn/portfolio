@@ -6,7 +6,7 @@ $('form').submit(function(event) {
 		data: formData,
 		type: "POST",
 		success: function(response) {
-			$('form').html("<p>Thanks for your response!</p>");
+			$('#sentmessage').html("<p>Thanks for your response!</p>");
 		}
 	});
 });

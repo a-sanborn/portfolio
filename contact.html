@@ -7,7 +7,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Righteous" rel="stylesheet">
 	<link href="normalize.css" rel="stylesheet">
 	<link href="main.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
 </head>
 
 
@@ -24,12 +27,13 @@
 		<p>Tell us about what you are looking for so we can give you a quote</p>
 	</div>
 	<div id="contactsplit">
-		<form action="mailto:lalunaworks@gmail.com" method="POST">
-			<input type="hidden" name="_subject" value="My Website" />
+		<div id="sentmessage">
+		</div>
+		<form action="mailer.php" method="POST">
 			<label for="names">Name</label>
-			<input type="text" id="names" name="names">
+			<input type="text" id="names" name="names" required>
 			<label for="email">Email</label>
-			<input type="email" id="email" name="email">
+			<input type="email" id="email" name="email" required>
 			<label for="text">Tell Us More</label>
 			<textarea id="text" name="comment"></textarea>
 			<button type="submit">Submit</button>
