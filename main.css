@@ -332,6 +332,15 @@ form button {
 	#footerlogodiv svg {
 		width: 20%;
 		}
+		
+	form {
+		max-width: 90%;
+		margin: 0 auto;
+		}
+		
+	#contactsvg {
+		width: 55%;
+		}
 }
 
 @media only screen and (orientation: portrait) and (min-width: 737px) {
