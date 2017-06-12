@@ -399,6 +399,16 @@ form button {
 	#footerlogodiv svg {
 		width: 20%;
 		}
+		
+	#contactheader #logo {
+		padding-top: 2%;
+		}
+		
+	
+	#contact p {
+		font-size: 3vw;
+		}
+		
 
 }
 
@@ -524,7 +534,29 @@ form button {
 		
 	footer {
 		padding: 0 4vw;
+		}
+		
+	#contactheader #logo {
+		padding-top: 1.5%;
+		}
+		
+	#contact p {
+		font-size: 2vw;
+		}
+		
+	#contactsplit {
+		display: flex;
+		}
+		
+	form, #contactsvg {
+		width: 50%;
 		}	
+		
+	#contactsvg svg {
+		width: 60%;
+		display: block;
+		margin: 0 auto;
+		}
 
 }
 
